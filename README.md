@@ -792,6 +792,5 @@ The key NLP component is the use of a Large Language Model to understand the sem
 
 **Kumar Ayush**
 
-B.Tech — Manipal University Jaipur
 
 ---
