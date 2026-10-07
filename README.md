@@ -236,3 +236,8 @@ configured.
 ## Author
 
 **Kumar Ayush**
+
+## Repositories
+
+-   [Frontend](https://github.com/Ayu270/podcast-clipper-frontend)
+-   [Backend](https://github.com/Ayu270/Podcast-Clipper-Backend)
