@@ -118,7 +118,7 @@ Contains the Python dependencies required by the project.
 Contains the supporting speaker/face-processing code used during video
 processing.
 
-## LLM Workflow
+## Workflow
 
 1.  A podcast video is received through the backend API.
 2.  The video is downloaded from AWS S3.
@@ -235,6 +235,4 @@ configured.
 
 ## Author
 
-**Ayush Kumar**
-
-B.Tech --- Manipal University Jaipur
+**Kumar Ayush**
