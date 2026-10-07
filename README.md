@@ -788,6 +788,16 @@ The key NLP component is the use of a Large Language Model to understand the sem
 -   [Frontend](https://github.com/Ayu270/podcast-clipper-frontend)
 -   [Backend](https://github.com/Ayu270/Podcast-Clipper-Backend)
 
+------------------------------------------------------------------------
+
+# 📜 License
+
+This project is licensed under the Apache License 2.0.
+
+See the `LICENSE` file for details.
+
+------------------------------------------------------------------------
+
 # 👨‍💻 Author
 
 **Kumar Ayush**
