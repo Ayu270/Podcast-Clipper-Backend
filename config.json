@@ -1,0 +1,52 @@
+{
+  "project": {
+    "name": "ai-podcast-clipper",
+    "description": "AI-powered podcast clip generation using WhisperX and Gemini"
+  },
+
+  "video": {
+    "target_width": 1080,
+    "target_height": 1920,
+    "framerate": 25,
+    "min_clip_duration": 30,
+    "max_clip_duration": 60,
+    "preferred_clip_duration": {
+      "min": 40,
+      "max": 60
+    }
+  },
+
+  "transcription": {
+    "model": "large-v2",
+    "device": "cuda",
+    "compute_type": "float16",
+    "batch_size": 16,
+    "language": "en"
+  },
+
+  "llm": {
+    "provider": "Google Gemini",
+    "model": "gemini-3-flash-preview"
+  },
+
+  "subtitles": {
+    "font": "Anton",
+    "font_size": 140,
+    "max_words_per_line": 5,
+    "resolution": {
+      "width": 1080,
+      "height": 1920
+    }
+  },
+
+  "processing": {
+    "gpu": "L40S",
+    "timeout": 900,
+    "retries": 0,
+    "scaledown_window": 20
+  },
+
+  "storage": {
+    "provider": "AWS S3"
+  }
+}
